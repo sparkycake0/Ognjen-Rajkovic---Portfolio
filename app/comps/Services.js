@@ -13,30 +13,22 @@ export default function ServicesPage() {
         <Image
           src={frontend}
           alt=""
-          width={50}
-          className="flex self-center w-1/8 lg:w-1/6"
+          className="flex self-center w-2/12 lg:w-2/12"
         />
         <h1>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta
-          eligendi eius officia quidem. Amet assumenda doloribus deleniti
-          pariatur?Lorem ipsum dolor sit amet consectetur adipisicing elit. Est
-          aspernatur quod consectetur, beatae veniam eum dolores vitae saepe
-          tempore consequatur a quas et quo, voluptas sunt
+          eligendi eius officia quidem.
         </h1>
       </div>
       <div className="p-4 flex flex-col bg-neutral-950 rounded-md gap-6">
         <Image
           src={backend}
           alt=""
-          width={50}
-          className="flex self-center w-1/8 lg:w-1/6"
+          className="flex self-center w-2/12 lg:w-2/12"
         />
         <h1>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta
-          eligendi eius officia quidem. Amet assumenda doloribus deleniti
-          pariatur?Lorem ipsum dolor sit amet consectetur adipisicing elit. Est
-          aspernatur quod consectetur, beatae veniam eum dolores vitae saepe
-          tempore consequatur a quas et quo, voluptas sunt
+          eligendi eius officia quidem.
         </h1>
       </div>
       <div className="p-4 flex flex-col bg-neutral-950 rounded-md gap-6">
@@ -44,22 +36,17 @@ export default function ServicesPage() {
           <Image
             src={frontend}
             alt=""
-            width={50}
-            className="flex self-center w-1/8 lg:w-1/6"
+            className="flex self-center w-2/12 lg:w-2/12"
           />
           <Image
             src={backend}
             alt=""
-            width={50}
-            className="flex self-center w-1/8"
+            className="flex self-center w-2/12 lg:w-2/12"
           />
         </div>
         <h1>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta
-          eligendi eius officia quidem. Amet assumenda doloribus deleniti
-          pariatur?Lorem ipsum dolor sit amet consectetur adipisicing elit. Est
-          aspernatur quod consectetur, beatae veniam eum dolores vitae saepe
-          tempore consequatur a quas et quo, voluptas sunt
+          eligendi eius officia quidem.
         </h1>
       </div>
     </main>
