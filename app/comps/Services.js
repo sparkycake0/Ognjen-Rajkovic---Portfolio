@@ -7,7 +7,7 @@ export default function ServicesPage() {
   return (
     <main
       id="ServicesPage"
-      className="w-full h-full mt-20 flex flex-col lg:flex-row gap-10 lg:text-2xl"
+      className="w-full h-full mt-20 flex flex-col lg:flex-row gap-10 lg:text-2xl text-justify"
     >
       <div className="p-4 flex flex-col bg-neutral-950 rounded-md gap-6">
         <Image

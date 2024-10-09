@@ -9,8 +9,8 @@ export default function Navbar() {
     SetMenu(!menu);
   };
   return (
-    <nav className="fixed backdrop-blur-lg backdrop-brightness-50 top-0 left-0 w-screen px-6 lg:px-16 py-6 text-xl">
-      <div className="flex justify-between">
+    <nav>
+      <div className="flex justify-between fixed backdrop-blur-sm backdrop-brightness-50 top-0 left-0 w-screen px-6 lg:px-16 py-6 text-xl">
         <div>
           <h1 className="text-4xl text-red-400 font-bold z-10 flex items-center justify-center">
             Ognjen
@@ -76,8 +76,8 @@ export default function Navbar() {
           </Link>
         </div>
       </div>
-      <div
-        className={`lg:hidden ${menu ? "translate-x-0" : "-translate-x-full"} transition-all duration-500 absolute left-0 top-0 z-50 flex flex-col items-center justify-center text-5xl bg-black w-screen h-screen gap-6`}
+      <nav
+        className={`lg:hidden ${menu ? "-translate-x-0" : "-translate-x-full"} transition-all duration-500 fixed backdrop-blur-sm backdrop-brightness-50 left-0  flex flex-col items-start justify-center text-5xl w-max h-full bottom-0 gap-6 px-8`}
       >
         <Link
           to="HomePage"
@@ -139,7 +139,7 @@ export default function Navbar() {
         >
           Contact
         </Link>
-      </div>
+      </nav>
     </nav>
   );
 }
