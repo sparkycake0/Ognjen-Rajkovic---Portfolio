@@ -48,25 +48,16 @@ export default function Navbar() {
             Skills
           </Link>
           <Link
-            to="HomePage"
+            to="EducationPage"
             smooth={true}
             duration={500}
             offset={-125}
             className="hover:underline hover:text-red-400 transition-all duration-75 cursor-pointer"
           >
-            Education
+            Education & Experience
           </Link>
           <Link
-            to="HomePage"
-            smooth={true}
-            duration={500}
-            offset={-125}
-            className="hover:underline hover:text-red-400 transition-all duration-75 cursor-pointer"
-          >
-            Experience
-          </Link>
-          <Link
-            to="HomePage"
+            to="ContactPage"
             smooth={true}
             duration={500}
             offset={-125}
@@ -110,14 +101,14 @@ export default function Navbar() {
           Skills
         </Link>
         <Link
-          to="HomePage"
+          to="EducationPage"
           smooth={true}
           duration={500}
           offset={-125}
           onClick={toggleMenu}
           className="hover:underline hover:text-red-400 transition-all duration-75 cursor-pointer"
         >
-          Education
+          Education & Experience
         </Link>
         <Link
           to="HomePage"
@@ -130,7 +121,7 @@ export default function Navbar() {
           Experience
         </Link>
         <Link
-          to="HomePage"
+          to="ContactPage"
           smooth={true}
           duration={500}
           offset={-125}

@@ -7,9 +7,9 @@ export default function ServicesPage() {
   return (
     <main
       id="ServicesPage"
-      className="w-full h-full mt-20 flex flex-col lg:flex-row gap-10 lg:text-2xl text-justify"
+      className="w-full h-full mt-20 flex flex-col lg:flex-row gap-10 lg:text-2xl text-justify bg-neutral-950 p-6 rounded-md"
     >
-      <div className="p-4 flex flex-col bg-neutral-950 rounded-md gap-6">
+      <div className="p-4 flex flex-col bg-neutral-900 rounded-md gap-6">
         <Image
           src={frontend}
           alt=""
@@ -20,7 +20,7 @@ export default function ServicesPage() {
           eligendi eius officia quidem.
         </h1>
       </div>
-      <div className="p-4 flex flex-col bg-neutral-950 rounded-md gap-6">
+      <div className="p-4 flex flex-col bg-neutral-900 rounded-md gap-6">
         <Image
           src={backend}
           alt=""
@@ -31,7 +31,7 @@ export default function ServicesPage() {
           eligendi eius officia quidem.
         </h1>
       </div>
-      <div className="p-4 flex flex-col bg-neutral-950 rounded-md gap-6">
+      <div className="p-4 flex flex-col bg-neutral-900 rounded-md gap-6">
         <div className="flex justify-center gap-6">
           <Image
             src={frontend}

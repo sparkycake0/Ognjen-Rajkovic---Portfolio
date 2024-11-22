@@ -13,7 +13,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${font.className} w-screen h-screen p-12 bg-black text-white flex select-none flex-col`}
+        className={`${font.className} w-screen h-screen p-12 bg-black text-white flex select-none flex-col `}
       >
         <Navbar />
         {children}

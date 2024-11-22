@@ -4,7 +4,7 @@ export default function SkillPage() {
   return (
     <main
       id="SkillPage"
-      className="mt-20 bg-neutral-950 p-3 lg:p-6 rounded-lg grid grid-cols-1 lg:grid-cols-2 text-xl lg:text-2xl gap-3 lg:gap-8 justify-between"
+      className="mt-20 bg-neutral-950 p-3 lg:p-6 rounded-md grid grid-cols-1 lg:grid-cols-2 text-xl lg:text-2xl gap-3 lg:gap-8 justify-between"
     >
       <div className="flex items-center justify-between w-full p-2">
         <label>HTML</label>
