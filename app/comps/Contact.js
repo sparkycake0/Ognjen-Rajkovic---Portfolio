@@ -10,7 +10,7 @@ export default function ContactPage() {
       <div className="text-red-400 font-semibold w-full flex justify-center">
         <Link
           href={"https://lunarweb.css@gmail.com"}
-          className="text-center text-3xl underline"
+          className="text-center text-3xl hover:underline"
         >
           lunarweb.css@gmail.com
         </Link>

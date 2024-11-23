@@ -27,9 +27,9 @@ export default function HomePage() {
           <h1 className="text-3xl lg:text-6xl font-bold">
             I'm a <span className="text-red-400">Web Developer</span>
           </h1>
-          <h1 className="text-md lg:text-lg text-justify">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut, unde
-            commodi. Autem repellat
+          <h1 className="text-md lg:text-xl text-justify">
+            Hello, I am Ognjen Rajkovic freelance web developer with almost 1.5
+            year of experience in building entertaining websites!
           </h1>
         </div>
         <div className="w-full flex gap-4">
