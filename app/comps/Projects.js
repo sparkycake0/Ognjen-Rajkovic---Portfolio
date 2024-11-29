@@ -8,7 +8,7 @@ export default function ProjectsPage() {
     >
       <h1 className="text-red-400 text-6xl text-center font-bold">Projects</h1>
       <div className="p-4 bg-neutral-800 gap-5 rounded-md">
-        <h1 className="text-red-400 text-3xl text-center font-bold">
+        <h1 className="text-red-400 text-3xl text-center font-bold mb-8">
           Personal Projects
         </h1>
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-5">
