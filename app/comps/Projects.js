@@ -33,7 +33,7 @@ export default function ProjectsPage() {
               Xenity - Live Chat
             </h1>
             <h1 className="text-lg text-center text-red-300 font-medium">
-              <Link href={"liquidus.vercel.app"} className="hover:underline">
+              <Link href={"xenity.vercel.app"} className="hover:underline">
                 xenity.vercel.app
               </Link>
             </h1>
@@ -42,6 +42,22 @@ export default function ProjectsPage() {
               where you can login and chat with other peoples on live chat. In
               future I will most likely add private chats but for now i am very
               proud of this.
+            </p>
+          </div>
+          <div className="bg-neutral-700 p-4 rounded-md">
+            <h1 className="font-bold text-center text-xl">
+              DripWear - Shopping Website
+            </h1>
+            <h1 className="text-lg text-center text-red-300 font-medium">
+              <Link href={"dripwear.vercel.app"} className="hover:underline">
+                dripwear.vercel.app
+              </Link>
+            </h1>
+            <p className="text-lg text-justify">
+              This website I made for my brother and his business. He was very
+              satisfied how it ended and is very thankfull for my commitment.
+              I've done this in very short time even though it's logic is very
+              complex and hard to understand.
             </p>
           </div>
         </div>
