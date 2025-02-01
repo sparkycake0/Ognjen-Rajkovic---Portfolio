@@ -7,7 +7,7 @@ export default function ProjectsPage() {
       id="ProjectsPage"
     >
       <h1 className="text-red-400 text-6xl text-center font-bold">Projects</h1>
-      <div className="p-4 bg-neutral-800 gap-5 rounded-md">
+      <div data-aos="zoom-in" className="p-4 bg-neutral-800 gap-5 rounded-md">
         <h1 className="text-red-400 text-3xl text-center font-bold mb-8">
           Personal Projects
         </h1>
@@ -60,9 +60,31 @@ export default function ProjectsPage() {
               complex and hard to understand.
             </p>
           </div>
+          <div className="bg-neutral-700 p-4 rounded-md">
+            <h1 className="font-bold text-center text-xl">
+              Cold-Calling - Personal Helper
+            </h1>
+            <h1 className="text-lg text-center text-red-300 font-medium">
+              <Link
+                href={"cold-calling-three.vercel.app"}
+                className="hover:underline"
+              >
+                cold-calling-three.vercel.app
+              </Link>
+            </h1>
+            <p className="text-lg text-justify">
+              This website I made for my brother and his business. He was very
+              satisfied how it ended and is very thankfull for my commitment.
+              I've done this in very short time even though it's logic is very
+              complex and hard to understand.
+            </p>
+          </div>
         </div>
       </div>
-      <div className="p-4 bg-neutral-800 grid grid-cols-1 gap-5 rounded-md">
+      <div
+        data-aos="zoom-in"
+        className="p-4 bg-neutral-800 grid grid-cols-1 gap-5 rounded-md"
+      >
         <h1 className="text-red-400 text-3xl text-center font-bold">
           Freelance Projects
         </h1>

@@ -9,7 +9,10 @@ export default function ServicesPage() {
       id="ServicesPage"
       className="w-full h-max mt-20 flex flex-col lg:flex-row gap-10 lg:text-2xl text-justify bg-neutral-950 p-6 rounded-md"
     >
-      <div className="p-4 flex flex-col bg-neutral-900 rounded-md gap-6">
+      <div
+        data-aos="zoom-in-right"
+        className="w-1/3 p-4 flex flex-col bg-neutral-900 rounded-md gap-6"
+      >
         <Image
           src={frontend}
           alt=""
@@ -24,7 +27,10 @@ export default function ServicesPage() {
           like portfolio websites.
         </h1>
       </div>
-      <div className="p-4 flex flex-col bg-neutral-900 rounded-md gap-6">
+      <div
+        data-aos="zoom-in"
+        className="p-4 w-1/3 flex flex-col bg-neutral-900 rounded-md gap-6"
+      >
         <Image
           src={backend}
           alt=""
@@ -40,7 +46,10 @@ export default function ServicesPage() {
           calculators and that stuff.
         </h1>
       </div>
-      <div className="p-4 flex flex-col bg-neutral-900 rounded-md gap-6">
+      <div
+        data-aos="zoom-in-left"
+        className="p-4 w-1/3 flex flex-col bg-neutral-900 rounded-md gap-6"
+      >
         <div className="flex justify-center gap-6">
           <Image
             src={frontend}

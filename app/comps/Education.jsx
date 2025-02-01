@@ -10,7 +10,10 @@ export default function EducationPage() {
         <h1 className="text-6xl text-center text-red-400 font-bold">
           Education
         </h1>
-        <div className="flex flex-col p-4 bg-neutral-800 gap-5 rounded-md h-3/6">
+        <div
+          data-aos="fade-right"
+          className="flex flex-col p-4 bg-neutral-800 gap-5 rounded-md h-3/6"
+        >
           <h1 className="text-3xl text-center text-red-400 font-bold">
             Middle School
           </h1>
@@ -21,15 +24,18 @@ export default function EducationPage() {
             learning and dedication.
           </h1>
         </div>
-        <div className="flex flex-col p-4 bg-neutral-800 gap-5 rounded-md h-3/6">
+        <div
+          data-aos="fade-right"
+          className="flex flex-col p-4 bg-neutral-800 gap-5 rounded-md h-3/6"
+        >
           <h1 className="text-3xl text-center text-red-400 font-bold">
-            Middle School
+            No other
           </h1>
           <h1 className="text-2xl text-justify">
-            Finished middle school ETS Mija Stanimirovic in Serbia, Nis. It was
-            it sector where I started learning about programming and got into
-            industry and the rest was finished using online courses and self
-            learning and dedication.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet
+            asperiores eius inventore? Ratione fuga unde, quam ut, nostrum quod
+            provident earum nam minima autem ad vel voluptatibus, libero quidem
+            labore!{" "}
           </h1>
         </div>
       </div>
@@ -38,7 +44,10 @@ export default function EducationPage() {
         <h1 className="text-6xl text-center text-red-400 font-bold">
           Experience
         </h1>
-        <div className="flex flex-col p-4 bg-neutral-800 gap-5 rounded-md h-3/6">
+        <div
+          data-aos="fade-left"
+          className="flex flex-col p-4 bg-neutral-800 gap-5 rounded-md h-3/6"
+        >
           <h1 className="text-3xl text-center text-red-400 font-bold">
             Building websites for own purpose
           </h1>
@@ -47,7 +56,10 @@ export default function EducationPage() {
             this portfolio) and for my friends and family.
           </h1>
         </div>
-        <div className="flex flex-col p-4 bg-neutral-800 gap-5 rounded-md h-3/6">
+        <div
+          data-aos="fade-left"
+          className="flex flex-col p-4 bg-neutral-800 gap-5 rounded-md h-3/6"
+        >
           <h1 className="text-3xl text-center text-red-400 font-bold">
             No other
           </h1>

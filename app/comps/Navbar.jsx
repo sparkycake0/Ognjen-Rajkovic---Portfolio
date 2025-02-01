@@ -10,7 +10,10 @@ export default function Navbar() {
   };
   return (
     <nav>
-      <div className="flex justify-between fixed backdrop-blur-lg backdrop-brightness-50 top-0 left-0 w-screen px-6 lg:px-16 py-6 text-xl">
+      <div
+        data-aos="fade-down"
+        className="flex justify-between z-50 fixed backdrop-blur-lg backdrop-brightness-50 top-0 left-0 w-screen px-6 lg:px-16 py-6 text-xl"
+      >
         <div>
           <h1 className="text-4xl text-red-400 font-bold z-10 flex items-center justify-center">
             Ognjen

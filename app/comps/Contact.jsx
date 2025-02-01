@@ -19,6 +19,7 @@ export default function ContactPage() {
         Feel free to ask for anything!
       </h1>
       <form
+        data-aos="fade-up"
         action="https://formspree.io/f/xpwzlery"
         method="POST"
         className="mt-10 p-4 bg-neutral-800 rounded-md flex flex-col"
