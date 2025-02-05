@@ -1,17 +1,28 @@
+"use client";
 import Image from "next/image";
-import plus from "../assets/plus-solid.svg";
 import backend from "../assets/code-solid.svg";
 import frontend from "../assets/computer-solid.svg";
+import { motion } from "framer-motion";
+import { useEffect, useState } from "react";
 
 export default function ServicesPage() {
+  const [isLG, setIsLG] = useState(false);
+  useEffect(() => {
+    const updateSize = () => setIsLG(window.innerWidth >= 1024);
+    updateSize();
+    window.addEventListener("resize", updateSize);
+    return () => window.removeEventListener("resize", updateSize);
+  }, []);
   return (
     <main
       id="ServicesPage"
       className="w-full h-max mt-20 flex flex-col lg:flex-row gap-10 lg:text-2xl text-justify bg-neutral-950 p-6 rounded-md"
     >
-      <div
-        data-aos="zoom-in-right"
-        className="w-1/3 p-4 flex flex-col bg-neutral-900 rounded-md gap-6"
+      <motion.div
+        initial={{ filter: "blur(5px)", opacity: 0.75 }}
+        whileHover={{ filter: "blur(0px)", opacity: 1 }}
+        transition={{ duration: 0.1, ease: "easeInOut" }}
+        className="lg:w-1/3 p-4 flex flex-col bg-neutral-900 rounded-md gap-6"
       >
         <Image
           src={frontend}
@@ -19,17 +30,18 @@ export default function ServicesPage() {
           className="flex self-center w-2/12 lg:w-2/12"
         />
         <h1 className="text-red-400 text-3xl text-center font-bold">
-          Showcase websites
+          Portfolio/Showcase Websites
         </h1>
         <h1>
-          These are just websites which are good looking and don't have some
-          complicated functions behind the scene. They are used for showcase
-          like portfolio websites.
+          This websites are used for showcasing your work and previously done
+          projects or yourself. They are like CVs but in more beautifull edition
         </h1>
-      </div>
-      <div
-        data-aos="zoom-in"
-        className="p-4 w-1/3 flex flex-col bg-neutral-900 rounded-md gap-6"
+      </motion.div>
+      <motion.div
+        initial={{ filter: "blur(5px)", opacity: 0.75 }}
+        whileHover={{ filter: "blur(0px)", opacity: 1 }}
+        transition={{ duration: 0.1, ease: "easeInOut" }}
+        className="p-4 lg:w-1/3 flex flex-col bg-neutral-900 rounded-md gap-6"
       >
         <Image
           src={backend}
@@ -37,18 +49,18 @@ export default function ServicesPage() {
           className="flex self-center w-2/12 lg:w-2/12"
         />
         <h1 className="text-red-400 text-3xl text-center font-bold">
-          High backend websites
+          E-Commerce Websites
         </h1>
         <h1>
-          They are called high backend because they are not focused on design
-          and entertaining design, they are rather focused on strong function
-          behind the scene. These are websites like shopping websites and some
-          calculators and that stuff.
+          E-Commerce is simply way of selling goods and services through out the
+          internet. Website for that is just like every simple shopping website.
         </h1>
-      </div>
-      <div
-        data-aos="zoom-in-left"
-        className="p-4 w-1/3 flex flex-col bg-neutral-900 rounded-md gap-6"
+      </motion.div>
+      <motion.div
+        initial={{ filter: "blur(5px)", opacity: 0.75 }}
+        whileHover={{ filter: "blur(0px)", opacity: 1 }}
+        transition={{ duration: 0.1, ease: "easeInOut" }}
+        className="p-4 lg:w-1/3 flex flex-col bg-neutral-900 rounded-md gap-6"
       >
         <div className="flex justify-center gap-6">
           <Image
@@ -56,22 +68,16 @@ export default function ServicesPage() {
             alt=""
             className="flex self-center w-2/12 lg:w-2/12"
           />
-          <Image
-            src={backend}
-            alt=""
-            className="flex self-center w-2/12 lg:w-2/12"
-          />
         </div>
         <h1 className="text-red-400 text-3xl text-center font-bold">
-          Fully developed websites
+          Simple Apps
         </h1>
         <h1>
-          All, entertaining design which leads people to visit it and interact
-          with it and good and strong function which does it's job. These are
-          professional and are mostly payed more than other two but I can
-          promise you it's worth it!
+          Apps for various things. It can be a calculator, todo-app, blog or
+          anything that comes to your mind. Apps can be very easy and can be
+          very hard and complex depends on your wishes.
         </h1>
-      </div>
+      </motion.div>
     </main>
   );
 }
