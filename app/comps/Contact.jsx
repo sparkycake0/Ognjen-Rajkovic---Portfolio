@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { motion } from "framer-motion";
 
 export default function ContactPage() {
   return (
@@ -6,23 +7,42 @@ export default function ContactPage() {
       className="mt-20 bg-neutral-950 rounded-md p-6 flex flex-col lg:px-48 mb-20"
       id="ContactPage"
     >
-      <h1 className="text-red-400 text-6xl text-center font-bold">Contact</h1>
-      <div className="text-red-400 font-semibold w-full flex justify-center">
+      <motion.h1
+        initial={{ width: 0 }}
+        whileInView={{ width: "100%" }}
+        transition={{ delay: 0.5, duration: 2 }}
+        className="text-red-400 whitespace-nowrap self-center overflow-hidden text-6xl text-center font-bold"
+      >
+        Contact
+      </motion.h1>
+      <motion.div
+        initial={{ width: 0 }}
+        whileInView={{ width: "100%" }}
+        transition={{ delay: 1.5, duration: 2 }}
+        className="text-red-400 whitespace-nowrap overflow-hidden self-center font-semibold w-full flex justify-center"
+      >
         <Link
           href={"https://lunarweb.css@gmail.com"}
-          className="text-center text-3xl hover:underline"
+          className="text-center text-xl lg:text-3xl hover:underline"
         >
           lunarweb.css@gmail.com
         </Link>
-      </div>
-      <h1 className="text-lg text-center mt-6">
+      </motion.div>
+      <motion.h1
+        initial={{ width: 0 }}
+        whileInView={{ width: "100%" }}
+        transition={{ delay: 2.5, duration: 2 }}
+        className="text-lg self-center whitespace-nowrap overflow-hidden text-center mt-6"
+      >
         Feel free to ask for anything!
-      </h1>
-      <form
-        data-aos="fade-up"
+      </motion.h1>
+      <motion.form
+        initial={{ scale: 0 }}
+        whileInView={{ scale: 1 }}
+        transition={{ delay: 3.25, duration: 0.5 }}
         action="https://formspree.io/f/xpwzlery"
         method="POST"
-        className="mt-10 p-4 bg-neutral-800 rounded-md flex flex-col"
+        className="mt-10 p-4  bg-neutral-800 rounded-md flex flex-col"
       >
         <div className="flex justify-between gap-4">
           <input
@@ -53,7 +73,7 @@ export default function ContactPage() {
         >
           Submit
         </button>
-      </form>
+      </motion.form>
     </main>
   );
 }
