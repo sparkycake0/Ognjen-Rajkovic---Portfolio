@@ -21,6 +21,7 @@ export default function ServicesPage() {
       <motion.div
         initial={{ filter: "blur(5px)", opacity: 0.75 }}
         whileHover={{ filter: "blur(0px)", opacity: 1 }}
+        whileTap={{ filter: "blur(0px)", opacity: 1 }}
         transition={{ duration: 0.1, ease: "easeInOut" }}
         className="lg:w-1/3 p-4 flex flex-col bg-neutral-900 rounded-md gap-6"
       >
@@ -40,6 +41,7 @@ export default function ServicesPage() {
       <motion.div
         initial={{ filter: "blur(5px)", opacity: 0.75 }}
         whileHover={{ filter: "blur(0px)", opacity: 1 }}
+        whileTap={{ filter: "blur(0px)", opacity: 1 }}
         transition={{ duration: 0.1, ease: "easeInOut" }}
         className="p-4 lg:w-1/3 flex flex-col bg-neutral-900 rounded-md gap-6"
       >
@@ -59,6 +61,7 @@ export default function ServicesPage() {
       <motion.div
         initial={{ filter: "blur(5px)", opacity: 0.75 }}
         whileHover={{ filter: "blur(0px)", opacity: 1 }}
+        whileTap={{ filter: "blur(0px)", opacity: 1 }}
         transition={{ duration: 0.1, ease: "easeInOut" }}
         className="p-4 lg:w-1/3 flex flex-col bg-neutral-900 rounded-md gap-6"
       >

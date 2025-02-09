@@ -34,7 +34,7 @@ export default function HomePage() {
             initial={{ width: 0 }}
             animate={{ width: "100%" }}
             transition={{ delay: 0.55, duration: 1.5, ease: "easeInOut" }}
-            className="text-5xl py-1 overflow-hidden whitespace-nowrap lg:text-8xl font-bold"
+            className="text-4xl py-1 overflow-hidden whitespace-nowrap lg:text-8xl font-bold"
           >
             Hi, It's <span className="text-red-400">Ognjen</span>
           </motion.h1>
@@ -42,7 +42,7 @@ export default function HomePage() {
             initial={{ width: 0 }}
             animate={{ width: "100%" }}
             transition={{ delay: 1.6, duration: 1.5, ease: "easeInOut" }}
-            className="text-3xl overflow-hidden whitespace-nowrap lg:text-6xl font-bold"
+            className="text-2xl overflow-hidden whitespace-nowrap lg:text-6xl font-bold"
           >
             I'm a <span className="text-red-400">Web Developer</span>
           </motion.h1>
