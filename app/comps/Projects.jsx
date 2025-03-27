@@ -57,6 +57,14 @@ export default function ProjectsPage() {
             done this in very short time even though it's logic is very complex
             and hard to understand."
         />
+        <Project
+          name="FlipsBalkan - Reselling Group"
+          link="flipsbalkan.com"
+          motionTime={4.5}
+          desc="This is my first paid website and the client was very satisfied 
+          with results. It turned out to very well made and communication was very
+          good, like he said."
+        />
       </motion.div>
     </main>
   );
